@@ -18,9 +18,10 @@
         "icon": "yahoo.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "http://info.yahoo.com/transparency-report/government-data-requests/"
     },
     {
         "id": "1348",
@@ -32,9 +33,10 @@
         "icon": "twitter.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "https://transparency.twitter.com/information-requests/2012/jan-jun"
     },
     {
         "id": "1349",
@@ -46,9 +48,10 @@
         "icon": "twitter.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "https://transparency.twitter.com/information-requests/2012/jul-dec"
     },
     {
         "id": "1350",
@@ -60,9 +63,10 @@
         "icon": "twitter.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "https://transparency.twitter.com/information-requests/2013/jan-jun"
     },
     {
         "id": "1351",
@@ -74,9 +78,10 @@
         "icon": "linkedin.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "http://help.linkedin.com/app/answers/detail/a_id/21733"
     },
     {
         "id": "1352",
@@ -88,9 +93,10 @@
         "icon": "linkedin.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "http://help.linkedin.com/app/answers/detail/a_id/21733"
     },
     {
         "id": "1353",
@@ -102,9 +108,10 @@
         "icon": "linkedin.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "http://help.linkedin.com/app/answers/detail/a_id/21733"
     },
     {
         "id": "1354",
@@ -116,9 +123,10 @@
         "icon": "linkedin.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "http://help.linkedin.com/app/answers/detail/a_id/41878"
     }, 
     {
         "id": "1344",
@@ -130,9 +138,10 @@
         "icon": "facebook.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance": "50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "https://www.facebook.com/about/government_requests"
     },
     {
         "id": "1346",
@@ -144,9 +153,10 @@
         "icon": "dropbox.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "https://www.dropbox.com/transparency"
     },
     {
         "id": "1347",
@@ -158,9 +168,10 @@
         "icon": "microsoft.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "http://www.microsoft.com/about/corporatecitizenship/en-us/reporting/transparency/"
     },
     {
         "id": "1355",
@@ -172,9 +183,10 @@
         "icon": "sonic.ico",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "http://corp.sonic.net/ceo/2012/04/13/transparency-report/"
     },
     {
         "id": "1356",
@@ -186,107 +198,115 @@
         "icon": "sonic.ico",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "http://corp.sonic.net/ceo/2013/05/24/2012-transparency-report/"
     },
     {
         "id": "1337",
-        "title": "Google (1445)",
+        "title": "Google (21389)",
         "startdate": "2012-07-01",
         "enddate": "2012-12-31",
-        "description": "Google user data requests",
+        "description": "User data requests: <b>21389</b><br/>User accounts specified: <b>33634</b><br/>Percentage of requests where some data was produced: <b>48.2%</b>",
         "event_type": "event",
         "icon": "google.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "http://www.google.com/transparencyreport/userdatarequests/"
     },
     {
         "id": "1338",
-        "title": "Google (1490)",
+        "title": "Google (14201)",
         "startdate": "2010-07-01",
         "enddate": "2010-12-31",
-        "description": "Google user data requests",
+        "description": "User data requests: <b>14201</b><br/>Percentage of requests where some data was produced: <b>59.6%</b>",
         "event_type": "event",
         "icon": "google.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "http://www.google.com/transparencyreport/userdatarequests/"
     },
     {
         "id": "1339",
-        "title": "Google (1373)",
+        "title": "Google (18257)",
         "startdate": "2011-07-01",
         "enddate": "2011-12-31",
-        "description": "Google user data requests",
+        "description": "User data requests: <b>18257</b><br/>User accounts specified: <b>28562</b><br/>Percentage of requests where some data was produced: <b>49.0%</b>",
         "event_type": "event",
         "icon": "google.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "http://www.google.com/transparencyreport/userdatarequests/"
     },
     {
         "id": "1340",
-        "title": "Google (1456)",
+        "title": "Google (20938)",
         "startdate": "2012-01-01",
         "enddate": "2012-06-30",
-        "description": "Google user data requests",
+        "description": "User data requests: <b>20938</b><br/>User accounts specified: <b>34615</b><br/>Percentage of requests where some data was produced: <b>47.0%</b>",
         "event_type": "event",
         "icon": "google.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "http://www.google.com/transparencyreport/userdatarequests/"
     },
     {
         "id": "1341",
-        "title": "Google (?)",
+        "title": "Google (12539)",
         "startdate": "2009-07-01",
         "enddate": "2009-12-31",
-        "description": "Google user data requests",
+        "description": "User data requests: <b>12539</b><br/><br/>Note: No additional data available because transparency reporting was limited in this period.",
         "event_type": "event",
         "icon": "google.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "http://www.google.com/transparencyreport/userdatarequests/"
     },
     {
         "id": "1342",
-        "title": "Google (1413)",
+        "title": "Google (15744)",
         "startdate": "2011-01-01",
         "enddate": "2011-06-30",
-        "description": "Google user data requests",
+        "description": "User data requests: <b>15744</b><br/>User accounts specified: <b>25342</b><br/>Percentage of requests where some data was produced: <b>52.3%</b>",
         "event_type": "event",
         "icon": "google.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "http://www.google.com/transparencyreport/userdatarequests/"
     },
     {
         "id": "1343",
-        "title": "Google (?)",
+        "title": "Google (13424)",
         "startdate": "2010-01-01",
         "enddate": "2010-06-30",
-        "description": "Google user data requests",
+        "description": "User data requests: <b>13424</b><br/><br/>Note: No additional data available because transparency reporting was limited in this period.",
         "event_type": "event",
         "icon": "google.png",
         "low_threshold": "1",
         "high_threshold": "60",
-        "importance":"50",
+        "importance":"47",
         "ypix": "0",
-        "slug": ""
+        "slug": "",
+        "link": "http://www.google.com/transparencyreport/userdatarequests/"
     }
        
     ]
