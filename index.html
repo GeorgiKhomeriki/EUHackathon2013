@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Data requests timeline</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Data requests timeline</title>
 
-<link rel="stylesheet" href="css/jquery-ui-1.8.5.custom.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/jquery-ui-1.8.5.custom.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
-<link rel="stylesheet" href="timeglider/Timeglider.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="timeglider/Timeglider.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
-<style type='text/css'>
+    <style type='text/css'>
 		#placement {
 			margin:32px;
             height:450px;
@@ -36,14 +36,38 @@
 			height:100px;
 			background-color:orange;
 		}
-</style>
+    </style>
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Requests', 'Users specified'],
+          ['2009',  12539,     0],
+          ['2010',  27625,     0],
+          ['2011',  34096,     54005],
+          ['2012',  115088,    193213],
+          ['2013',  56317,     102523]
+        ]);
+
+        var options = {
+          title: 'Aggregated annual totals (of what is currently known)',
+          vAxis: {title: 'Year',  titleTextStyle: {color: 'red'}}
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+
 </head>
 <body>
 
     <h1><img style="vertical-align:middle" src="img/glider.jpg" width="32px" height="32px"/> Visualizing governmental user data requests</h1>
     <!--p class='intro'>bla bla bla</p-->
     <div id='placement'></div>
-
 
 
     <div id='output'></div>
@@ -147,6 +171,7 @@
 	
 </script>
 
+<center><div id="chart_div" style="width: 950px; height: 150px;"></div></center>
 
 <div style="position: absolute; bottom: 5px; right: 15px;">
     <a href="https://github.com/GeorgiKhomeriki" target="_BLANK"><img src="img/hacker.png"/></a>
