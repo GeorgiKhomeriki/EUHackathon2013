@@ -1,7 +1,7 @@
 [
 {
     "id": "dataRequestsTimeLine",
-    "title": "Transparency reports aggregator",
+    "title": "Transparency reports timeline",
     "focus_date": "2011-09-20 12:00",
     "initial_zoom": "35",
     "color": "#82530d",
