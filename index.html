@@ -10,7 +10,10 @@
 
     <style type='text/css'>
 		#placement {
-			margin:32px;
+            margin-top:0px;
+			margin-left:32px;
+			margin-right:32px;
+			margin-bottom:20px;
             height:450px;
 		}
 		
@@ -24,6 +27,7 @@
 				
 		.intro {
 			margin-left:32px;
+            margin-bottom:2px;
 			color:#666;
 			font-style:italic;
 		}
@@ -53,7 +57,7 @@
         ]);
 
         var options = {
-          title: 'Aggregated annual totals (of what is currently known)',
+          title: 'Annual totals of governmental user data requests and, if available, the number of specified users.',
           vAxis: {title: 'Year',  titleTextStyle: {color: 'red'}}
         };
 
@@ -67,6 +71,7 @@
 
     <h1><img style="vertical-align:middle" src="img/glider.jpg" width="32px" height="32px"/> Visualizing governmental user data requests</h1>
     <!--p class='intro'>bla bla bla</p-->
+    <div class="intro">This timeline displays all transparency reports currently available on the internet. Each entry on the timeline represents a transparency report, showing the aggregate number of data requests that were made by governments. Clicking on an entry provides additional information and a link to the actual transparency report.</div>
     <div id='placement'></div>
 
 
